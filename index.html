@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Persistent Tools</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -43,7 +45,16 @@
     			</div>
     			<!-- /.col-md-3 -->
 
-    			<div class="col-lg-2 col-lg-offset-3 col-md-2 col-md-offset-2 col-sm-4 text-left col-xs-6 header-contacts">
+                <div class="col-lg-3 header-search">
+                    <input type="text" name="search" id="search" value="" placeholder="Введите запрос" class="header-search-noinmobile">
+                    <div class="header-search-srchbtn header-search-noinmobile">
+                        <input class="header-search-srchbtn-input" type="submit" value="">
+                    </div>
+
+                </div>
+                <!-- /.col-lg-3 -->
+
+    			<div class="col-lg-2 col-lg-offset-0 col-md-2 col-md-offset-2 col-sm-4 text-left col-xs-6 header-contacts">
     				<p>+7495 018 2016</p>
     				<a href="mailto:tverdins@yandex.ru">tverdins@yandex.ru</a>
     			</div>
@@ -72,7 +83,7 @@
     	<div class="container">
     		<div class="row">
     			<ul class="list-inline">
-    				<li><a href="#">О компании</a></li>
+    				<li class="list-inline-active"><a href="#">О компании</a></li>
     				<li><a href="#">Каталог</a></li>
     				<li><a href="#">Доставка и оплата</a></li>
     				<li><a href="#">Статьи и обзоры</a></li>
@@ -106,6 +117,61 @@
     				<h1>Твердосплавные концевые<br>
     				фрезы</h1>
     				<p>с доставкой по всей России</p>
+    				<!--  -->
+    				<div class="container">
+
+    					<div class="row">
+    						<div class="three-features-wrap-box">
+    							
+    							<div class="col-md-4">
+    								<div class="three-features-media-padding">
+    									<div class="three-features-img-wrap">
+    										<img src="img/tree-features/1.png" alt="">
+    									</div>
+    									<!-- /.three-features-img-wrap -->
+    									<p><span>Наличие</span> <br>
+    									на складе</p>
+    								</div>
+    								<!-- /.tree-features-media-padding -->
+    							</div>
+    							<!-- /.col-lg-12 -->
+
+    							<div class="col-md-4">
+    								<div class="three-features-media-padding">
+    									<div class="three-features-img-wrap">
+    										<img src="img/tree-features/2.png" alt="">
+    									</div>
+    									<!-- /.three-features-img-wrap -->
+    									<p><span>Немецкий</span> <br>
+    									твердый сплав</p>
+    								</div>
+    								<!-- /.tree-features-media-padding -->
+    							</div>
+    							<!-- /.col-lg-12 -->
+
+    							<div class="col-md-4">
+    								<div class="three-features-media-padding">
+    									<div class="three-features-img-wrap">
+    										<img src="img/tree-features/3.png" alt="">
+    									</div>
+    									<!-- /.three-features-img-wrap -->
+    									<p><span>Консультация</span><br>
+    									по режимам<br>
+    									резания бесплатно</p>
+    								</div>
+    								<!-- /.tree-features-media-padding -->
+    							</div>
+    							<!-- /.col-lg-12 -->
+
+    						</div>
+    						<!-- /.container -->
+
+    						
+    					</div>
+    					<!-- /.row -->
+    				</div>
+    				<!-- /.container -->
+    				<!--  -->
     				<a href="#catalog">Посмотреть каталог</a>
     			</div>
     			<!-- /.col-md-12 -->
@@ -113,71 +179,17 @@
     		<!-- /.row -->
     	</div>
     	<!-- /.container -->
+
+
     </section>
     <!-- /#main -->
 
-    <section id="tree-features">
-    	<div class="container">
-    		<div class="section-header-main">
-    			<h3>Преимущества</h3>
-    		</div>
-
-    		<div class="row">
-    			<div class="three-features-wrap-box">
-    				
-    				<div class="col-md-4">
-    					<div class="three-features-media-padding">
-    						<div class="three-features-img-wrap">
-    							<img src="img/tree-features/1.png" alt="">
-    						</div>
-    						<!-- /.three-features-img-wrap -->
-    						<p>Наличие на складе</p>
-    					</div>
-    					<!-- /.tree-features-media-padding -->
-    				</div>
-    				<!-- /.col-lg-12 -->
-
-    				<div class="col-md-4">
-    					<div class="three-features-media-padding">
-    						<div class="three-features-img-wrap">
-    							<img src="img/tree-features/2.png" alt="">
-    						</div>
-    						<!-- /.three-features-img-wrap -->
-    						<p>Немецкий твердый сплав</p>
-    					</div>
-    					<!-- /.tree-features-media-padding -->
-    				</div>
-    				<!-- /.col-lg-12 -->
-
-    				<div class="col-md-4">
-    					<div class="three-features-media-padding">
-    						<div class="three-features-img-wrap">
-    							<img src="img/tree-features/3.png" alt="">
-    						</div>
-    						<!-- /.three-features-img-wrap -->
-    						<p>Консультация по режимам<br>
-    													резания бесплатно</p>
-    					</div>
-    					<!-- /.tree-features-media-padding -->
-    				</div>
-    				<!-- /.col-lg-12 -->
-
-    			</div>
-    			<!-- /.container -->
-
-    			
-    		</div>
-    		<!-- /.row -->
-    	</div>
-    	<!-- /.container -->
-    </section>
-    <!-- /#tree-features -->
 
 
     <section id="clients">
     	<div class="container">
-    		<div class="section-header">
-    			<h3>Наши клиенты</h3>
+    		<div class="section-header-clients">
+    			<h3>Наши благодарные клиенты</h3>
     		</div>
     		<div class="row">
     			<div class="col-lg-12 clients-slider">
@@ -284,23 +296,23 @@
     		<!-- /.row -->
     	</div>
     	<!-- /.container -->
+    		<hr>
     </section>
     <!-- /#clients -->
 
     <section id="catalog" class="catalog">
     	<div class="container">
     		<div class="section-header">
-    			<h3>Каталог</h3>
+    			<h3>Популярные товары каталога</h3>
     		</div>
 
     		<div class="row text-center catalog-cards">
 
     			<div class="col-md-4">
     				<div class="catalog-border">
-    					<img class="catalog-cards-logo" src="img/catalog/logo.png" alt="">
-    					<img class="catalog-cards-img" src="img/catalog/1.png" alt="Сферические фасонные срезы">
     					<p>Сферические фасонные <br>
     					срезы</p>
+    					<img class="catalog-cards-img" src="img/catalog/1.png" alt="Сферические фасонные срезы">
     					<p><span>от 407 рублей</span></p>
     					<button>Подробнее</button>
     				</div>
@@ -310,9 +322,8 @@
 
     			<div class="col-md-4">
     				<div class="catalog-border">
-    					<img class="catalog-cards-logo" src="img/catalog/logo.png" alt="">
-    					<img class="catalog-cards-img" src="img/catalog/2.png" alt="Высокоскоростная обработка алюминия">
     					<p>Высокоскоростная обработка алюминия</p>
+    					<img class="catalog-cards-img" src="img/catalog/2.png" alt="Высокоскоростная обработка алюминия">
     					<p><span>от 378 рублей</span></p>
     					<button>Подробнее</button>
     				</div>
@@ -322,9 +333,8 @@
 
     			<div class="col-md-4">
     				<div class="catalog-border">
-    					<img class="catalog-cards-logo" src="img/catalog/logo.png" alt="">
-    					<img class="catalog-cards-img" src="img/catalog/3.png" alt="Лучшая стойкость при обработки нержавейки">
     					<p>Лучшая стойкость при обработки нержавейки</p>
+    					<img class="catalog-cards-img" src="img/catalog/3.png" alt="Лучшая стойкость при обработки нержавейки">
     					<p><span>от 458 рублей</span></p>
     					<button>Подробнее</button>
     				</div>
@@ -333,6 +343,10 @@
     			<!-- /.col-lg-12 -->
 
     			
+    		</div>
+    		<!-- /.row -->
+    		<div class="row text-center">
+    			<img class="catalog-logo" src="img/catalog/logo.png" alt="Persistent Tools">
     		</div>
     		<!-- /.row -->
     	</div>
@@ -471,35 +485,55 @@
     	<img src="img/features/features-small-devices.png" alt="">
     </section> -->
     
-    <footer id="footer">
+    <footer id="footer" class="footer">
     	<div class="container-fluid">
     		<div class="row footer-part-1">
-    			<div class="footer-form">
-    					<h4>Отдел продаж</h4>
-    					<h4 class="footer-form-phone">+7 (495) 928-64-07</h4>
-    					<h4>Задайте ваш вопрос или кратко опишите ситуацию.</h4>
-    					<h4>Мы очень быстро свяжемся с вами :)</h4>
-    					<form action="#">
-    						<input class="footer-form-input" type="text" placeholder="Имя">
-    						<input class="footer-form-input" type="text" placeholder="Телефон *">
-    						<input class="footer-form-input" type="text" placeholder="Электронная почта">
-    						<input class="footer-form-input" type="text" placeholder="Дополнительная информация">
-    						<small><input class="footer-form-checkbox" type="checkbox"> Даю согласие на <span>обработку персональных<br>
-    															данных</span></small>
-    						<button class="footer-form-button">Отправить сообщение</button>
-    					</form>
-    			</div>
-    			<!-- /.footer-form -->
+                <!-- video-bg -->
+                <div class="video-container-2">
+                  <div class="filter-2"></div>
+                  <video autoplay loop class="fillWidth">
+                      <source src="video-bg/MP4/1.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                      <!-- <source src="video-bg/WEBM/Love-Coding.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+                  </video>
+                  <div class="poster hidden">
+                      <!-- <img src="video-bg/Snapshots/Love-Coding.jpg" alt=""> -->
+                  </div>
+                  <!--/.poster hidden  -->
+                </div>
+                <!-- /.video-container -->
+                <!-- /video-bg -->
+
+    			<div class="container">
+                    <div class="footer-form">
+                    
+                            <h4>Отдел продаж</h4>
+                            <h4 class="footer-form-phone">+7 (495) 928-64-07</h4>
+                            <h4>Задайте ваш вопрос или кратко опишите ситуацию.</h4>
+                            <h4>Мы с Вами свяжемся</h4>
+                            <form action="#">
+                                <input class="footer-form-input" type="text" placeholder="Имя">
+                                <input class="footer-form-input" type="text" placeholder="Телефон *">
+                                <input class="footer-form-input" type="text" placeholder="Электронная почта">
+                                <input class="footer-form-input" type="text" placeholder="Дополнительная информация">
+                                <small><input class="footer-form-checkbox" type="checkbox"> Даю согласие на <span>обработку персональных<br>
+                                                                    данных</span></small>
+                                <button class="footer-form-button">Отправить сообщение</button>
+                            </form>
+                    </div>
+                    <!-- /.footer-form -->
+                </div>
+                <!-- /.container -->
     		</div>
     		<!-- /.row -->
     		<div class="row text-center footer-info footer-info-paddings">
 
     			<div class="col-md-4 footer-uppercase footer-uppercase-bold">
-    				Cryptocoin consulting
+    				<img class="footer-info-logo" src="img/catalog/logo.png" alt="Persistent Tools">
     			</div>
     			<!-- /.col-lg-12 -->
 
     			<div class="col-md-4">
+                    <img class="footer-info-socials" src="img/footer/socials.png" alt="">
     			</div>
     			<!-- /.col-lg-12 -->
 
