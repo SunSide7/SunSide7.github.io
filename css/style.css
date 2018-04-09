@@ -678,8 +678,6 @@ nav .list-inline-active a {
 }
 
 .footer-part-1 {
-  background: #fff url("../img/footer/bg-1.jpg") center no-repeat;
-  background-size: cover;
   height: 65rem;
   padding-top: 4rem;
 }
